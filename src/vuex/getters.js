@@ -1,2 +1,2 @@
 
-export const gettersMsg = state => state.msg
+export const state = state => state

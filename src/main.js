@@ -7,9 +7,12 @@ import VueRouter from 'vue-router'
 import App from './App'
 import router from '@/router/index'
 import store from '@/vuex/index'
+import Mint from 'mint-ui'
+import 'mint-ui/lib/style.css'
 
 Vue.use(VueRouter)
 Vue.use(Vuex)
+Vue.use(Mint)
 
 FastClick.attach(document.body)
 

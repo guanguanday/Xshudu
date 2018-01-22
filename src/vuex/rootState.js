@@ -1,5 +1,9 @@
 const state = {
-    msg: 'oldest'
+    title: 'ishudu',
+    progress: {
+        isShow: true,
+        num: 10,
+    },
 }
 
 export default state
