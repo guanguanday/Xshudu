@@ -1,6 +1,9 @@
-export const changeMsg = function ({commit}) {
+export const changeMsg = ({commit}) => {
     commit({
-        type: 'mutationsMsg',
+        type: 'isShowToolBar',
         msg: '我是修改后的数据'
     })
+}
+export const isShowToolBar = function ({commit}) {
+    commit('isShowToolBar')
 }
